@@ -11,8 +11,8 @@ finalize = scripts/fix_rpmdb.py
 finalize = scripts/clean_yumbootstrap.py
 
 [repositories]
-centos         = http://mirror.centos.org/centos/7/os/$basearch/
-centos-updates = http://mirror.centos.org/centos/7/updates/$basearch/
+centos         = https://vault.centos.org/7.8.2003/os/$basearch/
+centos-updates = https://vault.centos.org/7.8.2003/updates/$basearch/
 
 [environment]
 #PYTHONPATH=...
