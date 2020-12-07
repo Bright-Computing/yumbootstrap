@@ -7,6 +7,7 @@ packages = packages/${suite}.list
 
 [post_install]
 finalize = scripts/clean_yumbootstrap.py
+finalize = scripts/fix_rpmdb.py
 
 [repositories]
 centos         = http://mirror.centos.org/centos/8/BaseOS/$basearch/os/
