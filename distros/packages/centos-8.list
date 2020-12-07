@@ -17,8 +17,6 @@ yum
 #authconfig
 #dhclient
 chkconfig
-# graphical boot helper (used by initscripts)
-plymouth
 # ~root/.*
 rootfiles
 
